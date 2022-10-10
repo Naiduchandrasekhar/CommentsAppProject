@@ -1,0 +1,96 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+}
+
+.comments-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 600px;
+}
+
+.commentsImage {
+  height: 220px;
+  width: 250px;
+}
+
+.heading {
+  font-size: 45px;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffff;
+  font-size: 13px;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.count {
+  border: 1px solid #0ea5e9;
+  background-color: #0ea5e9;
+  padding: 0px 2px 0px 2px;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .commentsImage {
+    height: 170px;
+    width: 200px;
+  }
+}
+
+.unorderContainer {
+  list-style-type: none;
+  padding-left: 0px;
+}
